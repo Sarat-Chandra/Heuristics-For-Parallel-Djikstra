@@ -1,0 +1,2 @@
+G.print_node(t);
+node t=G.choose_node();

@@ -1,0 +1,35 @@
+Requirements / Packages Needed
+1. g++ [C++ compiler]
+2. libstdc++X-X.X-dev [X -- version numbers] (should have been installed with 1, just in case something happened)
+3. libx11-dev [Not really required, but because of how LEDA library is distributed]
+
+STEP 1: Modify Environment variables to include LEDA headers & libs
+--Open up the terminal & type the following
+gedit ~/.bashrc
+
+--Copy the following contents and paste it at the end of the file (Modify LEDAROOT env variable if needed )
+
+# configuration for LEDA
+LEDAROOT=~/LEDA
+export LEDAROOT
+
+CPATH=$CPATH:$LEDAROOT/incl
+export CPATH
+
+LIBRARY_PATH=$LIBRARY_PATH:$LEDAROOT
+export LIBRARY_PATH
+
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$LEDAROOT
+export LD_LIBRARY_PATH
+
+--Save the file and exit gedit. Restart the terminal
+
+STEP 2: Compile the program.
+g++ filename -o outputfilename -lleda -lX11
+
+Eg: g++ bi-directional_dijkstra.cpp -o dijk -lleda -lX11
+
+STEP 3: Thats it. Run the program
+./outputfilename
+
+Eg: ./dijk

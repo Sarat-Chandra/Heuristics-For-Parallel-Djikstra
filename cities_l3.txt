@@ -1,0 +1,64 @@
+1 thiruvannamalai &
+2 chengalpattu &
+3 cheyur &
+4 pondicherry &
+5 tindivanam &
+6 villupuram &
+7 cuddalore &
+8 panruti &
+9 neyveli &
+10 chidambaram &
+11 mayiladuthurai &
+12 karaikal &
+13 nagore &
+14 nagapattinam &
+15 kumbakkonam &
+16 thanjavur &
+17 thiruvarur &
+18 pudukottai
+19 thiruchirapalli
+20 karur
+21 dindigul
+22 madurai
+23 paramakudi
+24 ramanathapuram
+25 devakottai
+26 karaikudi
+27 rajapalayam
+28 tirunelveli
+29 ervadi
+30 anjugramam
+31 nagarcoil
+32 trivandrum
+33 kollam
+34 arupukottai 
+35 tuticorin
+
+36 chavara
+37 kottarakara
+38 karunagapally
+39 karuvatta
+40 alappuzha
+41 kochi
+42 chalakudi
+43 chengaloor
+44 thrissur
+45 Palakad
+46 kanjikode
+47 Pollachi
+48 palani
+49 theni 
+50 kanjirapalli
+51 pampady
+52 namakal
+53 velur
+54 salem
+55 karuppur
+56 dharmapuri
+57 krishnagiri
+58 vanyambadi
+59 ambur
+60 vellore
+61 melvisharam
+62 sriperumbudur
+63 chennai
